@@ -1,0 +1,104 @@
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../image/Bg-2.svg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h{
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+}
+
+.bar-lateral{
+    display: block;
+    box-sizing: border-box;
+    height: 90vh;
+    width: 291px;
+    top: 32px;
+    border-radius: 20px;
+    margin-left: 50px;
+    top: 50px;
+    position: relative;
+    background: rgba(196, 196, 196, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    margin-top: 0 !important;
+    position: relative;
+    top: 10px;
+    font-size: 18px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    background-color: green;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+
+.logo-img{
+    width: 200px;
+    text-align: center;
+    height: 180px !important;
+}
+
+.bg-img{
+    display: block;
+    margin-top: 550px;
+    height: 150px !important;
+}
+
+.bar-super{
+    position: absolute;
+    top: 50px;
+    width: 75%;
+    height: 100px;
+    margin-left: 400px;
+    background: rgba(196, 196, 196, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.tablee{
+    position: absolute;
+    top: 200px;
+    right: 70px;
+    width: 75%;
+    background: rgba(196, 196, 196, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 30px;
+    height: 75vh;
+}
+
+.table{
+    background-color: white;
+    border-radius: 20px;
+}
+
+input[type = 'number']{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 70% !important;
+    font-size: 18px !important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+    border: transparent !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    padding-left: 15px !important;
+}
+
+.edt{
+    text-align: center !important;
+}
